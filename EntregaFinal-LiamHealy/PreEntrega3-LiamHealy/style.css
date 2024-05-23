@@ -1,0 +1,47 @@
+
+#contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    
+    
+}
+
+
+.tarjetaProducto {
+    border: 1px solid black;
+    margin: 2px;
+}
+    img {
+     width: 300px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .producto-imagen {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+    }
+#contendorCarrito {
+    border: 3px solid slategray;
+    width: 100px;
+    height: min-content;
+
+}
+
+.tarjetaProductoCarrito {
+    display: flex;
+    justify-content: space-between;
+    column-rule-style: solid;
+}
+
+h1{
+    font-style: italic;
+    color: darksalmon;
+
+}
+
+body{
+    background-color: blanchedalmond;
+}
